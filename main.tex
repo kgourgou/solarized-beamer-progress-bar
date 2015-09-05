@@ -1,0 +1,50 @@
+\documentclass{beamer}
+
+
+\usepackage{libertine}
+
+%%%%%% Stylistic stuff
+% If you keep the accent=red, the theme will have the same color as the bar.
+
+\usecolortheme[light,accent=red]{solarized}
+\setbeamertemplate{navigation symbols}{}
+
+
+% Progress bar and extra subsections.
+\input{extras.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\title{Solarized theme with a cool progress bar}
+\author{Someone}
+\date{Somewhen}
+
+
+\begin{document}
+
+\frame{\titlepage}
+
+
+
+\section{This is the first section.}
+\frame{
+	\frametitle{A minimal slide.}
+	\begin{itemize}
+	\item A
+	\item B
+	\item C
+	\end{itemize}
+
+}
+
+\frame{
+	\frametitle{A new slide}
+	I could fill this slide with lorem ipsum, but I chose an image instead. 
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.5\textwidth]{batcoffee.jpg}
+	\end{figure}
+}
+
+\end{document}
